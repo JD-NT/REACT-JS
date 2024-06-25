@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&family=Ubuntu&display=swap");
+
+
+/**GENERAL**/
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #353535;
+  font-size: 16px;
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a{ cursor: pointer; text-decoration: none;}
+
+h1, h2, h3, h4, h5, h6{ font-size: 28px; font-family: monospace;}
+
+/**HERO NAVIGATION**/
+.heronav{
+  height: 100vh;
+  vertical-align: middle;
+  display: table-cell;
+  background-color: #353535;
+  width: 60%;
+}
+
+.heronav p, .heronav h1, .contact p{ color: white; }
+
+.flex{ display: flex;}
+
+.textbox2 p, .textbox2 h1, .contact p{ margin: 12px; }
+
+.textbox p, .textbox h1{ color: white; margin: 12px; }
+
+.hidden{ opacity: 0; cursor: default;}
+
+.directory{ text-decoration: none; color: #353535;}
+
+.textbox img, .textbox2 img{ width: 160px; height: 160px; }
+
+.textcontainer{
+  display: flex;
+  padding: 10%;
+  flex-direction: column;
+  min-width: 50%;
+  gap: 24px;
+}
+
+.myskills{
+  background-color: #F0F2F2;
+  height: 100vh;
+  vertical-align: middle;
+  justify-content: space-evenly;
+  width: 100%;
+  color: #353535;
+}
+
+.container{
+  justify-content: space-around;
+  padding: 5%;
+  padding-top: 12px;
+  text-align: center;
+}
+
+.textbox{
+  width: 30%;
+  background-color: #353535;
+  height: 26rem;
+  text-align: center;
+  padding: 12px;
+}
+
+.textbox2{
+  width: 30%;
+  background-color: #F0F2F2;
+  text-align: center;
+  padding: 12px;
+}
+
+.contact{
+  display: flex;
+  padding: 5%;
+  background-color: #353535;
+  height: 20rem;
+  color: white;
+}
+
+nav{
+  background: #353535;
+  top: 0;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  position: sticky;
+  z-index: 900;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 70px;
+  margin: 0 16px;
+}
+
+nav ul li a{
+  color: white;
+  font-size: 16px;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+
+.progressbar {
+  background-color: lightgray;
+  border-radius: 8px;
+  padding: 3px;
+}
+
+.progressbar div {
+  background-color: #353535;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.rounded-img{ border-radius: 8px;}
